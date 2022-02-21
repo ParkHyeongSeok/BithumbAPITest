@@ -13,6 +13,7 @@
 		03E5DC2827C3CBA700011A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E5DC2627C3CBA700011A74 /* Main.storyboard */; };
 		03E5DC2A27C3CBAA00011A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E5DC2927C3CBAA00011A74 /* Assets.xcassets */; };
 		03E5DC2D27C3CBAA00011A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E5DC2B27C3CBAA00011A74 /* LaunchScreen.storyboard */; };
+		6DE9DAABF6322D5550114ED5 /* Pods_BithumbAPITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BC6F90EF29667D09450F8C /* Pods_BithumbAPITest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		03E5DC2927C3CBAA00011A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E5DC2C27C3CBAA00011A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E5DC2E27C3CBAA00011A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BC6F90EF29667D09450F8C /* Pods_BithumbAPITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BithumbAPITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58036E30C71E0AEB5954ACD5 /* Pods-BithumbAPITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BithumbAPITest.debug.xcconfig"; path = "Target Support Files/Pods-BithumbAPITest/Pods-BithumbAPITest.debug.xcconfig"; sourceTree = "<group>"; };
+		FE51F8FA849A1BEED9B98E4A /* Pods-BithumbAPITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BithumbAPITest.release.xcconfig"; path = "Target Support Files/Pods-BithumbAPITest/Pods-BithumbAPITest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE9DAABF6322D5550114ED5 /* Pods_BithumbAPITest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				03E5DC1F27C3CBA700011A74 /* BithumbAPITest */,
 				03E5DC1E27C3CBA700011A74 /* Products */,
+				67BA1A99CA078400220C748C /* Pods */,
+				F0B03407B70F86BE1553BD6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = BithumbAPITest;
 			sourceTree = "<group>";
 		};
+		67BA1A99CA078400220C748C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58036E30C71E0AEB5954ACD5 /* Pods-BithumbAPITest.debug.xcconfig */,
+				FE51F8FA849A1BEED9B98E4A /* Pods-BithumbAPITest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0B03407B70F86BE1553BD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BC6F90EF29667D09450F8C /* Pods_BithumbAPITest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03E5DC3127C3CBAA00011A74 /* Build configuration list for PBXNativeTarget "BithumbAPITest" */;
 			buildPhases = (
+				1E970B173E706FD9706BE05A /* [CP] Check Pods Manifest.lock */,
 				03E5DC1927C3CBA700011A74 /* Sources */,
 				03E5DC1A27C3CBA700011A74 /* Frameworks */,
 				03E5DC1B27C3CBA700011A74 /* Resources */,
+				59B37D4F8AB61B1C84B28A46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E970B173E706FD9706BE05A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BithumbAPITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B37D4F8AB61B1C84B28A46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BithumbAPITest/Pods-BithumbAPITest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BithumbAPITest/Pods-BithumbAPITest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BithumbAPITest/Pods-BithumbAPITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03E5DC1927C3CBA700011A74 /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		03E5DC3227C3CBAA00011A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58036E30C71E0AEB5954ACD5 /* Pods-BithumbAPITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +382,7 @@
 		};
 		03E5DC3327C3CBAA00011A74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE51F8FA849A1BEED9B98E4A /* Pods-BithumbAPITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
