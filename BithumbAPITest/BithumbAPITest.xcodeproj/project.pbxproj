@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033F748627C5AE42004D3616 /* BithumbWebSocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F748527C5AE42004D3616 /* BithumbWebSocketAPI.swift */; };
+		033F748927C5B07D004D3616 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F748827C5B07D004D3616 /* NetworkError.swift */; };
+		033F748C27C5B180004D3616 /* SubscribeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F748B27C5B180004D3616 /* SubscribeMessage.swift */; };
+		033F748E27C5B1F0004D3616 /* SymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F748D27C5B1F0004D3616 /* SymbolType.swift */; };
+		033F749027C5B204004D3616 /* TickType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F748F27C5B204004D3616 /* TickType.swift */; };
+		033F749227C5C578004D3616 /* SubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F749127C5C578004D3616 /* SubscribeType.swift */; };
+		03852A5C27C70BC000B9E80A /* Candlestick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5527C70BC000B9E80A /* Candlestick.swift */; };
+		03852A5D27C70BC000B9E80A /* RealtimeOrderBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5627C70BC000B9E80A /* RealtimeOrderBook.swift */; };
+		03852A5E27C70BC000B9E80A /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5727C70BC000B9E80A /* Ticker.swift */; };
+		03852A5F27C70BC000B9E80A /* RealtimeTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5827C70BC000B9E80A /* RealtimeTransaction.swift */; };
+		03852A6027C70BC000B9E80A /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5927C70BC000B9E80A /* APIResponse.swift */; };
+		03852A6127C70BC000B9E80A /* AssetsStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5A27C70BC000B9E80A /* AssetsStatus.swift */; };
+		03852A6227C70BC000B9E80A /* RealtimeTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5B27C70BC000B9E80A /* RealtimeTicker.swift */; };
+		03852A6927C70F2900B9E80A /* BithumbHTTPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A6827C70F2900B9E80A /* BithumbHTTPRouter.swift */; };
+		03852A6B27C712D200B9E80A /* BithumbHTTPAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A6A27C712D200B9E80A /* BithumbHTTPAPI.swift */; };
 		03E5DC2127C3CBA700011A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5DC2027C3CBA700011A74 /* AppDelegate.swift */; };
 		03E5DC2327C3CBA700011A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5DC2227C3CBA700011A74 /* SceneDelegate.swift */; };
 		03E5DC2527C3CBA700011A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5DC2427C3CBA700011A74 /* ViewController.swift */; };
@@ -17,6 +32,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033F748527C5AE42004D3616 /* BithumbWebSocketAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithumbWebSocketAPI.swift; sourceTree = "<group>"; };
+		033F748827C5B07D004D3616 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		033F748B27C5B180004D3616 /* SubscribeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeMessage.swift; sourceTree = "<group>"; };
+		033F748D27C5B1F0004D3616 /* SymbolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolType.swift; sourceTree = "<group>"; };
+		033F748F27C5B204004D3616 /* TickType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickType.swift; sourceTree = "<group>"; };
+		033F749127C5C578004D3616 /* SubscribeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeType.swift; sourceTree = "<group>"; };
+		03852A5527C70BC000B9E80A /* Candlestick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candlestick.swift; sourceTree = "<group>"; };
+		03852A5627C70BC000B9E80A /* RealtimeOrderBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeOrderBook.swift; sourceTree = "<group>"; };
+		03852A5727C70BC000B9E80A /* Ticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
+		03852A5827C70BC000B9E80A /* RealtimeTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeTransaction.swift; sourceTree = "<group>"; };
+		03852A5927C70BC000B9E80A /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		03852A5A27C70BC000B9E80A /* AssetsStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsStatus.swift; sourceTree = "<group>"; };
+		03852A5B27C70BC000B9E80A /* RealtimeTicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeTicker.swift; sourceTree = "<group>"; };
+		03852A6827C70F2900B9E80A /* BithumbHTTPRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithumbHTTPRouter.swift; sourceTree = "<group>"; };
+		03852A6A27C712D200B9E80A /* BithumbHTTPAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithumbHTTPAPI.swift; sourceTree = "<group>"; };
 		03E5DC1D27C3CBA700011A74 /* BithumbAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BithumbAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E5DC2027C3CBA700011A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E5DC2227C3CBA700011A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +72,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033E770C27C4A37E00F46E04 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				03852A6527C70CE300B9E80A /* HTTP_API */,
+				03852A6427C70CD700B9E80A /* WebSocketAPI */,
+				033F748727C5B072004D3616 /* Error */,
+				03852A5427C70B9F00B9E80A /* Entity */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		033F748727C5B072004D3616 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				033F748827C5B07D004D3616 /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		033F748A27C5B16E004D3616 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				033F748B27C5B180004D3616 /* SubscribeMessage.swift */,
+				033F748D27C5B1F0004D3616 /* SymbolType.swift */,
+				033F748F27C5B204004D3616 /* TickType.swift */,
+				033F749127C5C578004D3616 /* SubscribeType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03852A5427C70B9F00B9E80A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				03852A5927C70BC000B9E80A /* APIResponse.swift */,
+				03852A5A27C70BC000B9E80A /* AssetsStatus.swift */,
+				03852A5527C70BC000B9E80A /* Candlestick.swift */,
+				03852A5627C70BC000B9E80A /* RealtimeOrderBook.swift */,
+				03852A5B27C70BC000B9E80A /* RealtimeTicker.swift */,
+				03852A5827C70BC000B9E80A /* RealtimeTransaction.swift */,
+				03852A5727C70BC000B9E80A /* Ticker.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		03852A6327C70C5F00B9E80A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				03E5DC2027C3CBA700011A74 /* AppDelegate.swift */,
+				03E5DC2227C3CBA700011A74 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		03852A6427C70CD700B9E80A /* WebSocketAPI */ = {
+			isa = PBXGroup;
+			children = (
+				033F748527C5AE42004D3616 /* BithumbWebSocketAPI.swift */,
+			);
+			path = WebSocketAPI;
+			sourceTree = "<group>";
+		};
+		03852A6527C70CE300B9E80A /* HTTP_API */ = {
+			isa = PBXGroup;
+			children = (
+				03852A6827C70F2900B9E80A /* BithumbHTTPRouter.swift */,
+				03852A6A27C712D200B9E80A /* BithumbHTTPAPI.swift */,
+			);
+			path = HTTP_API;
+			sourceTree = "<group>";
+		};
+		03852A6627C70D0400B9E80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03E5DC2627C3CBA700011A74 /* Main.storyboard */,
+				03E5DC2427C3CBA700011A74 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03852A6727C70D1200B9E80A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				03E5DC2927C3CBAA00011A74 /* Assets.xcassets */,
+				03E5DC2B27C3CBAA00011A74 /* LaunchScreen.storyboard */,
+				03E5DC2E27C3CBAA00011A74 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		03E5DC1427C3CBA700011A74 = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +182,11 @@
 		03E5DC1F27C3CBA700011A74 /* BithumbAPITest */ = {
 			isa = PBXGroup;
 			children = (
-				03E5DC2027C3CBA700011A74 /* AppDelegate.swift */,
-				03E5DC2227C3CBA700011A74 /* SceneDelegate.swift */,
-				03E5DC2427C3CBA700011A74 /* ViewController.swift */,
-				03E5DC2627C3CBA700011A74 /* Main.storyboard */,
-				03E5DC2927C3CBAA00011A74 /* Assets.xcassets */,
-				03E5DC2B27C3CBAA00011A74 /* LaunchScreen.storyboard */,
-				03E5DC2E27C3CBAA00011A74 /* Info.plist */,
+				033E770C27C4A37E00F46E04 /* Network */,
+				03852A6327C70C5F00B9E80A /* Application */,
+				033F748A27C5B16E004D3616 /* Model */,
+				03852A6627C70D0400B9E80A /* View */,
+				03852A6727C70D1200B9E80A /* Resource */,
 			);
 			path = BithumbAPITest;
 			sourceTree = "<group>";
@@ -80,7 +197,6 @@
 				58036E30C71E0AEB5954ACD5 /* Pods-BithumbAPITest.debug.xcconfig */,
 				FE51F8FA849A1BEED9B98E4A /* Pods-BithumbAPITest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,9 +323,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03852A5C27C70BC000B9E80A /* Candlestick.swift in Sources */,
+				03852A6227C70BC000B9E80A /* RealtimeTicker.swift in Sources */,
 				03E5DC2527C3CBA700011A74 /* ViewController.swift in Sources */,
+				033F748E27C5B1F0004D3616 /* SymbolType.swift in Sources */,
+				03852A5D27C70BC000B9E80A /* RealtimeOrderBook.swift in Sources */,
+				03852A6027C70BC000B9E80A /* APIResponse.swift in Sources */,
+				03852A6127C70BC000B9E80A /* AssetsStatus.swift in Sources */,
+				033F748627C5AE42004D3616 /* BithumbWebSocketAPI.swift in Sources */,
+				03852A5E27C70BC000B9E80A /* Ticker.swift in Sources */,
 				03E5DC2127C3CBA700011A74 /* AppDelegate.swift in Sources */,
+				033F749227C5C578004D3616 /* SubscribeType.swift in Sources */,
+				033F748C27C5B180004D3616 /* SubscribeMessage.swift in Sources */,
 				03E5DC2327C3CBA700011A74 /* SceneDelegate.swift in Sources */,
+				03852A5F27C70BC000B9E80A /* RealtimeTransaction.swift in Sources */,
+				03852A6B27C712D200B9E80A /* BithumbHTTPAPI.swift in Sources */,
+				033F749027C5B204004D3616 /* TickType.swift in Sources */,
+				03852A6927C70F2900B9E80A /* BithumbHTTPRouter.swift in Sources */,
+				033F748927C5B07D004D3616 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,9 +490,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MBAJ2NCPU9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BithumbAPITest/Info.plist;
+				INFOPLIST_FILE = BithumbAPITest/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -388,9 +519,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MBAJ2NCPU9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BithumbAPITest/Info.plist;
+				INFOPLIST_FILE = BithumbAPITest/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
