@@ -38,14 +38,16 @@ extension BithumbHTTPRouter: TargetType {
     var task: Task {
         switch self {
         case .requestAllAssetsStatus:
-            return .requestParameters(parameters: [:], encoding: URLEncoding.queryString)
+            return .requestPlain
         }
     }
     
     var headers: [String : String]? {
-        return ["Content-type": "application/json"]
+        return [
+            "Content-type": "application/json",
+            "Accept": "application/json"
+        ]
     }
-    
     
 }
 

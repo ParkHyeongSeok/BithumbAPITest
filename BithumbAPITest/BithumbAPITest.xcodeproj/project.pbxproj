@@ -21,6 +21,7 @@
 		03852A6127C70BC000B9E80A /* AssetsStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5A27C70BC000B9E80A /* AssetsStatus.swift */; };
 		03852A6227C70BC000B9E80A /* RealtimeTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A5B27C70BC000B9E80A /* RealtimeTicker.swift */; };
 		03852A6927C70F2900B9E80A /* BithumbHTTPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A6827C70F2900B9E80A /* BithumbHTTPRouter.swift */; };
+		03852A6B27C712D200B9E80A /* BithumbHTTPAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03852A6A27C712D200B9E80A /* BithumbHTTPAPI.swift */; };
 		03E5DC2127C3CBA700011A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5DC2027C3CBA700011A74 /* AppDelegate.swift */; };
 		03E5DC2327C3CBA700011A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5DC2227C3CBA700011A74 /* SceneDelegate.swift */; };
 		03E5DC2527C3CBA700011A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5DC2427C3CBA700011A74 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		03852A5A27C70BC000B9E80A /* AssetsStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsStatus.swift; sourceTree = "<group>"; };
 		03852A5B27C70BC000B9E80A /* RealtimeTicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeTicker.swift; sourceTree = "<group>"; };
 		03852A6827C70F2900B9E80A /* BithumbHTTPRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithumbHTTPRouter.swift; sourceTree = "<group>"; };
+		03852A6A27C712D200B9E80A /* BithumbHTTPAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithumbHTTPAPI.swift; sourceTree = "<group>"; };
 		03E5DC1D27C3CBA700011A74 /* BithumbAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BithumbAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E5DC2027C3CBA700011A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E5DC2227C3CBA700011A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				03852A6827C70F2900B9E80A /* BithumbHTTPRouter.swift */,
+				03852A6A27C712D200B9E80A /* BithumbHTTPAPI.swift */,
 			);
 			path = HTTP_API;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				033F748C27C5B180004D3616 /* SubscribeMessage.swift in Sources */,
 				03E5DC2327C3CBA700011A74 /* SceneDelegate.swift in Sources */,
 				03852A5F27C70BC000B9E80A /* RealtimeTransaction.swift in Sources */,
+				03852A6B27C712D200B9E80A /* BithumbHTTPAPI.swift in Sources */,
 				033F749027C5B204004D3616 /* TickType.swift in Sources */,
 				03852A6927C70F2900B9E80A /* BithumbHTTPRouter.swift in Sources */,
 				033F748927C5B07D004D3616 /* NetworkError.swift in Sources */,
